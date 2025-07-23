@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Alaina ❤️ Alfonso</title>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Share Tech Mono', monospace;
+      background: linear-gradient(#1a1a1a, #2a2a2a);
+      color: #fff;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+    .centered {
+      text-align: center;
+      padding: 60px 20px;
+    }
+    h1 {
+      font-size: 3rem;
+      animation: glow 2s infinite alternate;
+    }
+    @keyframes glow {
+      from { text-shadow: 0 0 5px #ff0090, 0 0 10px #ff0090; }
+      to { text-shadow: 0 0 20px #ff4dd2, 0 0 30px #ff4dd2; }
+    }
+    img.polaroid {
+      width: 280px;
+      border: 10px solid white;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+      margin: 30px auto;
+      display: block;
+      transform: rotate(-2deg);
+    }
+    .letter {
+      max-width: 600px;
+      margin: auto;
+      background: rgba(255,255,255,0.1);
+      padding: 30px;
+      border-radius: 12px;
+      font-size: 1.1rem;
+      line-height: 1.7;
+    }
+    .secret {
+      text-align: center;
+      margin-top: 40px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 1rem;
+      background: #ff4dd2;
+      border: none;
+      color: white;
+      cursor: pointer;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+    .hidden {
+      display: none;
+      margin-top: 20px;
+      font-size: 1.3rem;
+      color: #00ffcc;
+      animation: fadein 2s ease-in;
+    }
+    @keyframes fadein {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    footer {
+      margin-top: 50px;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+    .audio-box {
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="centered">
+    <h1>NCR to a Journey of Love</h1>
+    <p>Happy 20th Birthday, Alfonso 🎉</p>
+  </div>
+
+  <img class="polaroid" src="cafe-gul-photo.jpg" alt="Café Gul Memory"/>
+
+  <div class="letter">
+    <p>Dear Alfonso,</p>
+    <p>I love you no matter what happens, Alfonso Oliver.  
+    I want ways to be same for us — always.</p>
+    <p>From Café Gul to Infinity,<br/> Yours forever — Alaina 🩷</p>
+  </div>
+
+  <div class="secret">
+    <p>🔐 Solve the puzzle to unlock the secret</p>
+    <button onclick="revealLove()">Run this Python line</button>
+    <pre>print("Alaina " + "loves " + "Alfonso")</pre>
+    <div class="hidden" id="secretMsg">💖 Alaina loves Alfonso 💖</div>
+  </div>
+
+  <div class="centered audio-box">
+    <p>🎶 Play our song:</p>
+    <iframe width="300" height="170" src="https://www.youtube.com/embed/yegE4Qh3ivA?autoplay=1&mute=1" 
+    title="Tu Aesa Kaise Hai - Osho Jain" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
+  </div>
+
+  <footer>
+    © 2025 – Made with 🩷 by Alaina for Alfonso | Café Gul Memories ☕🍔
+  </footer>
+
+  <script>
+    function revealLove() {
+      document.getElementById("secretMsg").style.display = "block";
+    }
+  </script>
+
+</body>
+</html>
